@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="~/" title="Home" description="Home">
+    <siteMapNode url="~/Default" title="Home" description="Go to the homepage" />
+    <siteMapNode url="~/HeDepartments/Default.aspx" title="Course Areas" description="Courses Sub HomePage">
+      <siteMapNode url="~/HeDepartments/Access/Default.aspx" title="Access" description="Access Courses Home Site" />
+      <siteMapNode url="~/HeDepartments/Business/Default.aspx" title="Business" description="Higher Level Apprenticeships" />
+      <siteMapNode url="~/HeDepartments/Computing/Default.aspx" title="Computing" description="Higher Level Computing" />
+      <siteMapNode url="~/HeDepartments/Engineering/Default.aspx" title="Engineering" description="Higher Level Engineering" />
+    </siteMapNode>
+    <siteMapNode url="~/HelpAdvice/Default.aspx" title="Help" description="Information for Perspective Students">
+      <siteMapNode url="~/HelpAdvice/Students.aspx" title="Students Help" description="Help and advice for students" />
+      <siteMapNode url="~/HelpAdvice/Employers.aspx" title="Employers Help" description="Help and advice for employers" />
+    </siteMapNode>
+    <siteMapNode url="~/About/Default" title="About" description="About this Site">
+      <siteMapNode url="~/About/Contact" title="Contact Us" description="Contact Us" />
+      <siteMapNode url="~/About/AboutUs" title="About Us" description="About Us" />
+    </siteMapNode>
+    <siteMapNode url="~/Login" title="Login" description="Log in to this web site" />
+  </siteMapNode>
+</siteMap>
